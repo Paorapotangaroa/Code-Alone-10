@@ -1,4 +1,4 @@
-# Homework Assignment: Build a Simple Chat Interface (JS Only)
+# Code Alone 10: Chat App
 
 ## Overview
 
