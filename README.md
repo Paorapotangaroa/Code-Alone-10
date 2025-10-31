@@ -48,7 +48,9 @@ You should structure your JavaScript into clear, reusable functions. Here are su
 - **Purpose:** Handles switching the active channel.
 - **Steps:**
   - Remove the "active" class from the currently active channel.
-  - Add the "active" class to the clicked channel. (Hint: Use the event)
+  - - Hint: Search the DOM for the element and use the `classList.remove` function. 
+  - Add the "active" class to the clicked channel. 
+  - - Hint: Use the event
   - Update the header with the channel’s name.
   - Call a function to populate messages for that channel.
 
@@ -59,7 +61,7 @@ You should structure your JavaScript into clear, reusable functions. Here are su
   - Remove all message elements currently in the chat container.
   - Loop through the messages in the specified channel’s array within the object.
   - For each message:
-    - Use the `<template>` element to create a new message element.
+    - Use the provided `<template>` element to create a new message element.
     - Fill in the sender and message text.
     - If it’s from the user, apply the special styling.
     - Append the new element to the chat container.
