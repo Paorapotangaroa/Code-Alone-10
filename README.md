@@ -64,14 +64,14 @@ You should structure your JavaScript into clear, reusable functions. Here are su
     - If it’s from the user, apply the special styling.
     - Append the new element to the chat container.
 
-### 3. `initializeEventListeners()`
+### 3. `initializeEventListeners`
 - **Purpose:** Adds all required event listeners to your page elements.
 - **Steps:**
   - Select all channel elements and attach a click listener that calls `changeChannel`.
   - (Extra credit) Attach a click listener to the send button that calls `sendMessage`.
 - **Note:** You cannot manually add IDs or modify HTML. Use only what is already provided in the HTML structure. If you want additional IDs you will need to add them dynamically.
 
-### 4. `sendMessage()` (Extra Credit)
+### 4. `sendMessage` (Extra Credit)
 - **Purpose:** Sends a message typed by the user.
 - **Steps:**
   - Figuring this out is the extra credit. Make sure both the message window and the `chatData` object are updated.
